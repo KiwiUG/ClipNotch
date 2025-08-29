@@ -131,6 +131,8 @@ struct DropZoneView: View {
         pasteDestination = destination
         showConfirmPaste = true
     }
+    
+    private func test(){}
 
     
 }
