@@ -9,15 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack(spacing: 40) {
+            DropZoneView(title: "Copy Box")
+            DropZoneView(title: "Cut Box")
         }
         .padding()
+        .frame(minWidth: 600, minHeight: 400)
     }
+    
 }
+
 
 #Preview {
     ContentView()
