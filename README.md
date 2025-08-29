@@ -1,3 +1,5 @@
+**"Any Helps and Suggestions are Warmly Welcomed"**  
+
 # ClipNotch
 
 ClipNotch is an **aesthetic clipboard and file manager** built with SwiftUI for macOS.  
