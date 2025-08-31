@@ -11,7 +11,7 @@ import SwiftUI
 struct ClipNotchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DropNotchZone()
         }
     }
 }

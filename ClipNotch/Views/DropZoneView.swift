@@ -132,7 +132,4 @@ struct DropZoneView: View {
         showConfirmPaste = true
     }
     
-    private func test(){}
-
-    
 }
